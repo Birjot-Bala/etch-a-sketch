@@ -7,10 +7,14 @@
     border: solid;
 }
 
-.content:hover {
-    background-color: black;
-}
-
 #clear {
     margin: 10px;
+}
+
+@keyframes colorChange {
+    100% { background: black };
+}
+
+.changing {
+    animation: colorChange 0.5s forwards;
 }
